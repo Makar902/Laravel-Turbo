@@ -1,0 +1,26 @@
+.adminPanel_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(123, 104, 238, 0.8);
+    border: 1px solid #6a5acd;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.button-30:hover + .adminPanel_dropdown-content {
+    display: block;
+}
+
+.adminPanel_dropdown-content.fixed {
+    position: fixed;
+}
+
+.adminPanel_dropdown-form {
+    margin-bottom: 10px;
+}
+
+.adminPanel_toJsonButton {
+    background-color: #20b2aa;
+    color: #fff;
+}

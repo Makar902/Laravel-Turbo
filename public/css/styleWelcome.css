@@ -1,0 +1,449 @@
+body {
+    /*background: linear-gradient(to top, #2C3E50, #000000) image('url="');*/
+    background-image: url("https://th.bing.com/th/id/R.0175dba2178eafabbd6fd68067d92be6?rik=xLAhCxokHEdR4Q&riu=http%3a%2f%2fwww.usnews.com%2fcmsmedia%2f39%2f74%2f90f958b84dadba369e49670fcc55%2f160811-editorial.jpg&ehk=ir%2fss4wmCls2Io%2fyoyRExXLd1LW9zk1vLl2Uh2TH8ho%3d&risl=&pid=ImgRaw&r=0");
+    color: #fff;
+    margin-bottom: 60px;
+    font-family: 'Arial', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+header {
+    z-index: 100;
+    background-color: #000;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+button {
+    margin-right: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-85:before {
+    content: "";
+
+    background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+.button-86 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: #6f42c1 ;
+    border-radius: 10px;
+
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+.button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: #6f42c1 ;
+    border-radius: 10px;
+}
+
+.button-86::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.button-86:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+    border: #6f42c1 1px;
+
+}
+
+.button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: #b9bbbe;
+}
+
+.description {
+    flex: 1;
+    text-align: justify;
+}
+
+.footerW {
+    z-index: 100;
+
+    background-color: #000;
+    color: #f6f3f3;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.transparent-button {
+    background: none; /* Забирає фон кнопки */
+    border: none; /* Забирає рамку кнопки */
+    padding: 0; /* Забирає внутрішній відступ кнопки */
+    cursor: pointer;
+    color: transparent; /* Забирає текст кнопки */
+    font-size: 0; /* Забирає розмір тексту (або встановіть потрібний вам розмір) */
+    outline: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+}
+.buttons-container {
+    display: flex;
+    align-items: center; /* Вирівнює елементи по вертикалі */
+}
+/* CSS */
+.button-30 {
+    margin-right: 20px;
+    align-items: center;
+    appearance: none;
+    background-color: #000000;
+    border-radius: 4px;
+    border-width: 0;
+    box-sizing: border-box;
+    color: #efebeb;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+
+.button-30:hover {
+    box-shadow: rgb(30, 31, 34) 0 4px 8px, rgb(30, 31, 34) 0 7px 13px -3px, #e5e6e8 0 -3px 0 inset;
+    transform: translateY(-2px);
+    background: #b7b6b6;
+    color: #1a202c;
+    border-radius: 10px;
+}
+
+.button-30:active {
+    box-shadow: #e8e2e3 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/*Slider css*/
+.introW {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    border-radius: 5px;
+    z-index: 90;
+}
+
+.left {
+    float: left;
+    height: 100%;
+    width: 60%;
+    padding: 3rem 3rem 3rem 5rem;
+    display: table;
+}
+
+.left > div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+span {
+    color: #E8CA2B;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-bottom: 3rem;
+}
+
+h1 + p {
+    color: #949494;
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+}
+
+p + a {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.textOnSlider {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+border-radius: 60px;
+}
+
+.slider {
+    box-shadow:
+        rgba(0, 0, 0, 0.2) 5px 5px,
+        rgba(178, 69, 250, 0.15) 10px 10px,
+        rgba(178, 69, 250, 0.1) 15px 15px,
+        rgba(178, 69, 250, 0.25) 10px 10px,
+        rgba(178, 69, 250, 0.1) 15px 15px;
+
+
+
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+.slider li {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: clip .7s ease-in-out, z-index 0s .7s;
+    clip: rect(0, 100vw, 100vh, 100vw);
+    display: table;
+}
+
+.center-y {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+h3 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+h3 + a {
+    font-size: 1.6rem;
+    display: inline-block;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+h3, h3 + a {
+    opacity: 0;
+    transition: opacity .7s 0s, transform .5s .2s;
+    transform: translate3d(0, 50%, 0);
+}
+
+li.current h3, li.current h3 + a {
+    opacity: 1;
+    transition-delay: 1s;
+    transform: translate3d(0, 0, 0);
+}
+
+li.current {
+    z-index: 1;
+    clip: rect(0, 100vw, 100vh, 0);
+}
+
+li.prev {
+    clip: rect(0, 0, 100vh, 0);
+}
+
+.slider nav {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+nav a {
+    display: inline-block;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    min-width: 12px;
+    min-height: 12px;
+    background: #fff;
+    margin: 0 1rem;
+    transition: transform .3s;
+}
+
+a.current_dot {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 700px) {
+    .left {
+        width: 100%;
+        height: 30%;
+    }
+
+    .slider {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+/*end slider css*/
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.logo {
+    width: 90px; /* Змініть ширину відповідно до вашого бажаного розміру */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    margin-right: 10px; /* Додайте відступ між логотипом і кнопками */
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.logo-button:hover .logo {
+    filter: brightness(1.5); /* Збільшити яскравість при наведенні */
+    transform: scale(1.1) translateX(5px); /* Збільшити та висунути вперед */
+}
+
+/* Інші стилі залишаються незмінними */

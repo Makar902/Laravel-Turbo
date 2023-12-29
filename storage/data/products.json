@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "ItemName": "Griffin's Dominion",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/HWyBrdi1Zay37XldxX3Y1O4puOg=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhb7%2Fh1b%2F9539342008350%2Fblade14-p9-black-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Behold this formidable gaming laptop, a true sovereign of the griffin realm. Powered by the mighty Gryphon X processor and the Thunderstrike 2000 graphics card, it unveils incredible gaming capabilities. The satisfaction from every keystroke and mouse movement is nothing short of epic.",
+        "created_at": "2023-12-27T19:14:39.000000Z",
+        "updated_at": "2023-12-28T15:54:55.000000Z"
+    },
+    {
+        "id": 2,
+        "ItemName": "Firestorm Dragon",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/eHez3Jk5mkBmIwS6GK8ET50EbF8=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh4a%2Fhd6%2F9664129728542%2Fblade16-lamborghini-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Possessor of the captivating Firestorm graphics and the integrated BlazeCore processor, this gaming laptop is crafted for an uncompromising gaming experience. Thanks to the EmberCool technology, it remains cool even during the most intense battles. Immerse yourself in the fiery gaming world with the Firestorm Dragon.",
+        "created_at": "2023-12-27T19:41:45.000000Z",
+        "updated_at": "2023-12-27T19:41:45.000000Z"
+    },
+    {
+        "id": 3,
+        "ItemName": "Cosmic Tycoon",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/xusudNlBP4YoKgoOh3EkWXxopYg=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhfe%2Fh86%2F9470716772382%2Fblade16-s9-v2-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Soaring on the waves of cosmic games, this laptop is equipped with magical QuantumForce features and a super-fast WarpGraphics card. Its CosmicGlow backlit keyboard allows you to dive into the depths of space, controlling every aspect of your gaming odyssey. With the Cosmic Tycoon, venture into the unknown depths of the gaming universe.",
+        "created_at": "2023-12-27T19:41:45.000000Z",
+        "updated_at": "2023-12-27T19:41:45.000000Z"
+    },
+    {
+        "id": 4,
+        "ItemName": "Shadowstalker Elite",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/GOqWEvWWzwzJwv96uegs4rrLp7I=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh57%2Fhe3%2F9636322541598%2F230822-viper-v2-pro-pubg-hyperpolling-2-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Unleash your gaming prowess with the Shadowstalker Elite, a gaming mouse that prowls the digital realm with unmatched precision. Its SwiftStrike sensor ensures lightning-fast response times, while the Nightshade RGB lighting creates an atmosphere of nocturnal dominance. Dominate every click and swift movement with the Shadowstalker Elite.",
+        "created_at": "2023-12-27T19:41:45.000000Z",
+        "updated_at": "2023-12-27T19:41:45.000000Z"
+    },
+    {
+        "id": 5,
+        "ItemName": "ChronoMech Vanguard",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/pAYbv__1hDknbv0Jj5-Rw39CrRw=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fh2a%2Fhd3%2F9538807103518%2Fblackwidow-v3-black-5-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Embark on a journey through time and keystrokes with the ChronoMech Vanguard gaming keyboard. Its QuantumKeys technology ensures instantaneous response, while the TimeWarp RGB illumination transports you to different eras with every keypress. Take command of your gaming destiny with the ChronoMech Vanguard",
+        "created_at": "2023-12-27T19:41:45.000000Z",
+        "updated_at": "2023-12-27T19:41:45.000000Z"
+    },
+    {
+        "id": 6,
+        "ItemName": "Abyssal Serpent Precision",
+        "ImageUrl": "https:\/\/assets3.razerzone.com\/Wq3QInFARScmkLzMXxIPaePzXvI=\/500x500\/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhed%2Fhe2%2F9636322508830%2F230822-cobra-pro-hyperpolling-dongle-500x500.png",
+        "ItemPrice": "100.00",
+        "ItemDescription": "Dive into the gaming abyss with the Abyssal Serpent Precision mouse. Armed with the VenomSensor for unparalleled accuracy and the HydraGlow lighting system that shifts with your every move, this mouse is a companion for the boldest of gamers. Let the Abyssal Serpent guide your hand through the depths of gaming immersion.",
+        "created_at": "2023-12-27T19:41:45.000000Z",
+        "updated_at": "2023-12-27T19:41:45.000000Z"
+    }
+]
