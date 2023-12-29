@@ -4,7 +4,7 @@
     <div class="container flex justify-between items-center">
 
         <div class="logo-container">
-            <button class="logo-button" onclick="location.href='/shop'">
+            <button class="logo-button" onclick="location.href='/userVerify'">
                 <img src="{{asset('images/Logo.jpg')}}" alt="Logo" class="logo">
             </button>
             <button class="button-30" onclick="location.href='/home'">Home</button>

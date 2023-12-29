@@ -1880,9 +1880,9 @@ border-radius: 50px;
 /*imageShop*/
 .imgShop
 {
-    max-width: 100%; /* Забезпечити, що ширина картинки не перевищує розмір її батьківського контейнера */
-    max-height: 100%; /* Забезпечити, що висота картинки не перевищує розмір її батьківського контейнера */
-    width: auto; /* Забезпечити, що ширина адаптується до висоти з урахуванням максимального розміру */
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     height: auto;
 }
 .brand-bg .brand_box span {
@@ -2298,8 +2298,8 @@ ul.location_icon span {
 
 .logoShopAbout {
 
-    width: 120%; /* Змініть ширину відповідно до вашого бажаного розміру */
-    height: auto; /* Автоматична висота для збереження пропорцій */
+    width: 120%;
+    height: auto;
     margin-top: 95px;
     right: 50px;
     left: -50px ;
@@ -2308,6 +2308,5 @@ ul.location_icon span {
 }
 
 .logoShopAbout-button:hover .logoShopAbout {
-    filter: brightness(1.5); /* Збільшити яскравість при наведенні */
-    transform: scale(1.1) translateX(5px); /* Збільшити та висунути вперед */
-}
+    filter: brightness(1.5);
+    transform: scale(1.1) translateX(5px);}
